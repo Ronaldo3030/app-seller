@@ -5,12 +5,13 @@ import { Button } from "./ui/button"
 export function SignIn() {
     return (
         <form
+            className="w-full"
             action={async () => {
                 "use server"
                 await signIn("google")
             }}
         >
-            <Button type="submit" variant="outline" className="flex-1">
+            <Button type="submit" variant="outline" className="w-full">
                 <ChromeIcon className="mr-2 h-5 w-5" />
                 Signin with Google
             </Button>

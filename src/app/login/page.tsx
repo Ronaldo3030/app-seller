@@ -83,15 +83,8 @@ export default function Component() {
             <span className="bg-background px-2 text-muted-foreground">Or continue with</span>
           </div>
         </div>
-        <div className="flex gap-2">
+        <div className="flex gap-2 w-full">
           <SignIn />
-          <Link
-            href="#"
-            className="flex-1 rounded-md bg-primary py-2 px-4 text-sm font-medium text-primary-foreground shadow-sm hover:bg-primary-foreground hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
-            prefetch={false}
-          >
-            Magic Link
-          </Link>
         </div>
       </div>
     </div>
